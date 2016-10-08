@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B19757621DA8F37D00E45C74 /* SE_0025_Scoped_Access_Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19757611DA8F37D00E45C74 /* SE_0025_Scoped_Access_Level.swift */; };
+		B197576D1DA8F3BA00E45C74 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = B197576C1DA8F3BA00E45C74 /* Object.swift */; };
+		B197576F1DA8F47F00E45C74 /* Inherit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B197576E1DA8F47F00E45C74 /* Inherit.swift */; };
+		B19757711DA8F6DE00E45C74 /* InheritWithTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19757701DA8F6DE00E45C74 /* InheritWithTestable.swift */; };
 		B1AD60101DA8DFBE00C051E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD600F1DA8DFBE00C051E0 /* AppDelegate.swift */; };
 		B1AD60121DA8DFBE00C051E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD60111DA8DFBE00C051E0 /* ViewController.swift */; };
 		B1AD60141DA8DFBE00C051E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AD60131DA8DFBE00C051E0 /* Assets.xcassets */; };
 		B1AD60171DA8DFBE00C051E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AD60151DA8DFBE00C051E0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B19757641DA8F37D00E45C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1AD60041DA8DFBE00C051E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1AD600B1DA8DFBE00C051E0;
+			remoteInfo = SwiftProposals;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B197575F1DA8F37D00E45C74 /* SE-0025 Scoped Access Level.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SE-0025 Scoped Access Level.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19757611DA8F37D00E45C74 /* SE_0025_Scoped_Access_Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SE_0025_Scoped_Access_Level.swift; sourceTree = "<group>"; };
+		B19757631DA8F37D00E45C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B197576C1DA8F3BA00E45C74 /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		B197576E1DA8F47F00E45C74 /* Inherit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inherit.swift; sourceTree = "<group>"; };
+		B19757701DA8F6DE00E45C74 /* InheritWithTestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InheritWithTestable.swift; sourceTree = "<group>"; };
 		B1AD600C1DA8DFBE00C051E0 /* SwiftProposals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProposals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AD600F1DA8DFBE00C051E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1AD60111DA8DFBE00C051E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B197575C1DA8F37D00E45C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1AD60091DA8DFBE00C051E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +60,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B19757601DA8F37D00E45C74 /* SE-0025 Scoped Access Level */ = {
+			isa = PBXGroup;
+			children = (
+				B19757611DA8F37D00E45C74 /* SE_0025_Scoped_Access_Level.swift */,
+				B197576E1DA8F47F00E45C74 /* Inherit.swift */,
+				B19757701DA8F6DE00E45C74 /* InheritWithTestable.swift */,
+				B19757631DA8F37D00E45C74 /* Info.plist */,
+			);
+			path = "SE-0025 Scoped Access Level";
+			sourceTree = "<group>";
+		};
+		B197576B1DA8F3A300E45C74 /* SE-0025 */ = {
+			isa = PBXGroup;
+			children = (
+				B197576C1DA8F3BA00E45C74 /* Object.swift */,
+			);
+			path = "SE-0025";
+			sourceTree = "<group>";
+		};
 		B1AD60031DA8DFBE00C051E0 = {
 			isa = PBXGroup;
 			children = (
 				B1AD600E1DA8DFBE00C051E0 /* SwiftProposals */,
+				B19757601DA8F37D00E45C74 /* SE-0025 Scoped Access Level */,
 				B1AD600D1DA8DFBE00C051E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				B1AD600C1DA8DFBE00C051E0 /* SwiftProposals.app */,
+				B197575F1DA8F37D00E45C74 /* SE-0025 Scoped Access Level.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +100,7 @@
 		B1AD600E1DA8DFBE00C051E0 /* SwiftProposals */ = {
 			isa = PBXGroup;
 			children = (
+				B197576B1DA8F3A300E45C74 /* SE-0025 */,
 				B1AD600F1DA8DFBE00C051E0 /* AppDelegate.swift */,
 				B1AD60111DA8DFBE00C051E0 /* ViewController.swift */,
 				B1AD60131DA8DFBE00C051E0 /* Assets.xcassets */,
@@ -64,6 +113,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B197575E1DA8F37D00E45C74 /* SE-0025 Scoped Access Level */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19757681DA8F37D00E45C74 /* Build configuration list for PBXNativeTarget "SE-0025 Scoped Access Level" */;
+			buildPhases = (
+				B197575B1DA8F37D00E45C74 /* Sources */,
+				B197575C1DA8F37D00E45C74 /* Frameworks */,
+				B197575D1DA8F37D00E45C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19757651DA8F37D00E45C74 /* PBXTargetDependency */,
+			);
+			name = "SE-0025 Scoped Access Level";
+			productName = "SE-0025 Scoped Access Level";
+			productReference = B197575F1DA8F37D00E45C74 /* SE-0025 Scoped Access Level.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B1AD600B1DA8DFBE00C051E0 /* SwiftProposals */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1AD601B1DA8DFBE00C051E0 /* Build configuration list for PBXNativeTarget "SwiftProposals" */;
@@ -91,6 +158,12 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "EasyStyle G.K.";
 				TargetAttributes = {
+					B197575E1DA8F37D00E45C74 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 89282N6UM7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1AD600B1DA8DFBE00C051E0;
+					};
 					B1AD600B1DA8DFBE00C051E0 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 89282N6UM7;
@@ -112,11 +185,19 @@
 			projectRoot = "";
 			targets = (
 				B1AD600B1DA8DFBE00C051E0 /* SwiftProposals */,
+				B197575E1DA8F37D00E45C74 /* SE-0025 Scoped Access Level */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B197575D1DA8F37D00E45C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1AD600A1DA8DFBE00C051E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,16 +210,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B197575B1DA8F37D00E45C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19757711DA8F6DE00E45C74 /* InheritWithTestable.swift in Sources */,
+				B19757621DA8F37D00E45C74 /* SE_0025_Scoped_Access_Level.swift in Sources */,
+				B197576F1DA8F47F00E45C74 /* Inherit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1AD60081DA8DFBE00C051E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B1AD60121DA8DFBE00C051E0 /* ViewController.swift in Sources */,
 				B1AD60101DA8DFBE00C051E0 /* AppDelegate.swift in Sources */,
+				B197576D1DA8F3BA00E45C74 /* Object.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19757651DA8F37D00E45C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1AD600B1DA8DFBE00C051E0 /* SwiftProposals */;
+			targetProxy = B19757641DA8F37D00E45C74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B1AD60151DA8DFBE00C051E0 /* Main.storyboard */ = {
@@ -152,6 +252,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B19757661DA8F37D00E45C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 89282N6UM7;
+				INFOPLIST_FILE = "SE-0025 Scoped Access Level/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.SE-0025-Scoped-Access-Level";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProposals.app/Contents/MacOS/SwiftProposals";
+			};
+			name = Debug;
+		};
+		B19757671DA8F37D00E45C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 89282N6UM7;
+				INFOPLIST_FILE = "SE-0025 Scoped Access Level/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.SE-0025-Scoped-Access-Level";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProposals.app/Contents/MacOS/SwiftProposals";
+			};
+			name = Release;
+		};
 		B1AD60191DA8DFBE00C051E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -273,6 +403,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B19757681DA8F37D00E45C74 /* Build configuration list for PBXNativeTarget "SE-0025 Scoped Access Level" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19757661DA8F37D00E45C74 /* Debug */,
+				B19757671DA8F37D00E45C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B1AD60071DA8DFBE00C051E0 /* Build configuration list for PBXProject "SwiftProposals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -289,6 +427,7 @@
 				B1AD601D1DA8DFBE00C051E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
